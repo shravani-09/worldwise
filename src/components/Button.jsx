@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 //PropTypes
 
 Button.propTypes = {
-  children: PropTypes.object,
+  children: PropTypes.any,
   onClick: PropTypes.func,
   type: PropTypes.string,
 };
